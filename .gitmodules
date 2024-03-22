@@ -10,3 +10,11 @@
 	path = Assets/WORK/leo
   url = git@github.com:CypherJack/zeshootjam.git
   branch = main
+[submodule "Assets/WORK/zannnol"]
+	path = Assets/WORK/zannnol
+	url = git@github.com:Zannnol/UPSI4_theShoot.git
+	branch = main
+[submodule "Assets/WORK/cattant"]
+	path = Assets/WORK/cattant
+	url = git@github.com:Toodiy/Bingabon.git
+	branch = main
