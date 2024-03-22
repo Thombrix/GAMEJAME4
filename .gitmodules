@@ -2,3 +2,7 @@
 	path = Assets/WORK/thombre
 	url = git@github.com:Thombrix/GAMEJAM4-THOMBRE.git
 	branch = main
+[submodule "Assets/WORK/groux"]
+	path = Assets/WORK/groux
+	url = git@github.com:ComradeGroux/gamejame4-groux.git
+	branch = main
