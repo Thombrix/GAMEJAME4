@@ -6,3 +6,7 @@
 	path = Assets/WORK/groux
 	url = git@github.com:ComradeGroux/gamejame4-groux.git
 	branch = main
+[submodule "Assets/WORK/zannnol"]
+	path = Assets/WORK/zannnol
+	url = git@github.com:Zannnol/UPSI4_theShoot.git
+	branch = main
