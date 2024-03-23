@@ -23,5 +23,20 @@ jobs:
     - name: Artifact
       uses: actions/upload-artifact@v3
       with:
-        name: Build
+        name: WebGL-Build
         path: build
+
+    - name: Build Windows
+      uses: game-ci/unity-builder@v4
+      env:
+        UNITY_LICENSE: ${{ secrets.UNITY_LICENSE }}
+        UNITY_EMAIL: ${{ secrets.UNITY_EMAIL }}
+        UNITY_PASSWORD: ${{ secrets.UNITY_PASSWORD }}
+      with:
+        targetPlatform: StandaloneWindows64
+
+    - name: Upload Windows Artifact
+      uses: actions/upload-artifact@v3
+      with:
+        name: Windows-Build
+        path: build/StandaloneWindows64
