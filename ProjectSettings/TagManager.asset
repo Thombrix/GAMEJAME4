@@ -6,6 +6,7 @@ TagManager:
   tags:
   - GRABABLE
   - UNGRABABLE
+  - PowerUp
   layers:
   - Default
   - TransparentFX
