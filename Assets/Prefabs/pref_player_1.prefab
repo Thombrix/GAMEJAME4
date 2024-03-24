@@ -199,7 +199,7 @@ Rigidbody:
   m_GameObject: {fileID: 3005328903286090543}
   serializedVersion: 4
   m_Mass: 1
-  m_Drag: 0
+  m_Drag: 1
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
   m_InertiaTensor: {x: 1, y: 1, z: 1}
@@ -231,6 +231,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _dashSpeed: 250
   _dashTime: 0.05
+  attackRange: 3
+  throwBack: 200
   moveSpeed: 30
 --- !u!114 &1070841727194787823
 MonoBehaviour:
@@ -316,7 +318,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 695c038e83370ec4889cbce89b27a2c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  grabHeight: 25
+  grabHeight: 15
   throwForce: 5000
 --- !u!114 &-8308756086031550307
 MonoBehaviour:
