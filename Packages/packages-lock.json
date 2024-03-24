@@ -1,5 +1,11 @@
 {
   "dependencies": {
+    "bz-soft.ragdoll-helper": {
+      "version": "file:bz-soft.ragdoll-helper",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
     "com.dgreenheck.openfracture": {
       "version": "https://github.com/dgreenheck/OpenFracture.git",
       "depth": 0,
@@ -9,6 +15,13 @@
         "com.unity.testtools.codecoverage": "1.0.1"
       },
       "hash": "6d0ddff64173193f024638c2de2dbeb8a2525965"
+    },
+    "com.naelstrof.jigglephysics": {
+      "version": "https://github.com/naelstrof/UnityJigglePhysics.git#upm",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "7506229368ee27dbf507a13e23f89b0778ddc2c8"
     },
     "com.unity.animation.rigging": {
       "version": "1.2.1",
