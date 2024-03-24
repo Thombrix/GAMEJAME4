@@ -7,6 +7,9 @@ TagManager:
   - GRABABLE
   - UNGRABABLE
   - Goober
+  - Floor
+  - Projectile
+  - PowerUp
   layers:
   - Default
   - TransparentFX
