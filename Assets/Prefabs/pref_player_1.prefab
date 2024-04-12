@@ -229,8 +229,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 195ef1bd9a725c64e9682f31af37b969, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _dashSpeed: 250
-  _dashTime: 0.05
+  intMat:
+  - {fileID: 2100000, guid: 566b6d451396d1443b9efd574385b04b, type: 2}
+  - {fileID: 2100000, guid: 63f316ace3f4f1c459f33c5df41c7729, type: 2}
+  - {fileID: 2100000, guid: d7b781ec87112564285c9dbc3af6ff93, type: 2}
+  - {fileID: 2100000, guid: 45e50ef6017cf01448edf3abf8587500, type: 2}
+  extMat:
+  - {fileID: 2100000, guid: 32793e94831d12e4d9d1eed5daf1c21d, type: 2}
+  - {fileID: 2100000, guid: e1cc309054be89d4a8901b094ee4bbc1, type: 2}
+  - {fileID: 2100000, guid: 358e56cb45058c74b9b835ae1bd1d42c, type: 2}
+  - {fileID: 2100000, guid: 808b90eda092c6b42afa763ef3ae83e2, type: 2}
+  _dashSpeed: 300
+  _dashTime: 0.1
   attackRange: 3
   throwBack: 200
   moveSpeed: 30
@@ -318,8 +328,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 695c038e83370ec4889cbce89b27a2c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  grabHeight: 15
-  throwForce: 5000
+  grabHeight: 10
+  throwForce: 15000
 --- !u!114 &-8308756086031550307
 MonoBehaviour:
   m_ObjectHideFlags: 0
